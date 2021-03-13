@@ -11,11 +11,11 @@ public class Main {
       System.out.println(name);
 
 //stores number an prints value
-      int myNum = 15;
+      byte myNum = 15;
       System.out.println(myNum);
 
 //declaring variable late, assigning it a value and printing
-      int firstNum = 0;
+      byte firstNum = 0;
       firstNum = 1;
       System.out.println(firstNum);
       System.out.println(name+ firstNum);
@@ -23,8 +23,12 @@ public class Main {
       String name1 = "Timmy ", name2 = "George ", name3 = "Carl";
       System.out.println(name1+name2+name3);
 
-      int one = 1, two = 2, three = 3;
+      byte one = 1, two = 2, three = 3;
       System.out.println(one+two+three);
+
+      float deci = 6.75f;
+      double fract = 3.25d;
+      System.out.println(deci + fract);
     }
   }
   
